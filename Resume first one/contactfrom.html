@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        fieldset {
+          background-color: #eeeeee;
+        }
+        
+        legend {
+          background-color: gray;
+          color: white;
+          padding: 5px 10px;
+        }
+        
+        input {
+          margin: 5px;
+        }
+        </style>
+</head>
+<body>
+    <center>
+    <h1>The fieldset element + CSS</h1>
+    <form action="mailto:brainventor.mr@gmail.com" method="post" enctype="text/plain">
+     <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <label for="massage">Your Massage</label><br>
+      <textarea name="massage" id="" cols="30" rows="10"></textarea><br>
+      <input type="submit" value="Submit">
+     </fieldset>
+    </form>
+    </center>
+</body>
+</html>
