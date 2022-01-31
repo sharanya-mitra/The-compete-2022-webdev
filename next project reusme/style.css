@@ -1,0 +1,57 @@
+.name_me
+{
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    color:chartreuse;
+    
+    border: 20px solid black;
+    /* border-radius: 20px; */
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    padding: 20px;
+    border: 10px solid black;
+}
+.name_me:hover
+{
+    background-color: chartreuse;
+    color: chocolate;
+}
+.topone
+{
+    background-color: #f00;
+    height: 200px;
+    width: 200px;
+    /* border-radius: 10%; */
+    border: 20px solid black;
+
+    /* border-style: calc(35px + 10px); */
+    /* position: relative; */
+}
+.topone:hover
+{
+    background-color: green;
+    /* border-radius: 10%; */
+    /* border-style: calc(35px + 10px); */
+    /* position: relative; */
+}
+.bottomone
+{
+    background-color:green;
+    height: 200px;
+    width: 200px;
+    /* border-radius: 10%; */
+    border: 10px solid black;
+
+    /* border-style: calc(35px + 10px); */
+    /* position: relative; */
+}
+.bottomone:hover
+{
+    background-color: red;
+    /* border-radius: 10%; */
+    /* border-style: calc(35px + 10px); */
+    /* position: relative; */
+}

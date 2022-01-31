@@ -1,0 +1,65 @@
+body
+{
+    background-color: #AEFEFF;
+    color: rebeccapurple;
+    color-adjust: exact;
+    border-style: dotted; 
+    margin: 100px;
+    padding: 1%;
+}
+h1
+{
+    text-align: center;
+    font-size: 3em;
+    font-family: "Times New Roman", Times, serif;
+    color: #FF0000;
+}
+h2
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Times New Roman", Times, serif;
+}
+hr
+{
+    border-color: rebeccapurple;
+    border-width: 5px;
+    width: 10%;
+    border-style: dotted none  none none ;
+    
+}
+fieldset {
+    background-color: #eeeeee;
+  }
+  
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  input {
+    margin: 5px;
+  }
+
+  /* ############################connectwithme#################################### */
+  #connectwithme
+  {
+    /* background-color: #eeeeee; */
+    /* border-style: solid; */
+    /* border-color: rebeccapurple; */
+    /* border-width: 5px; */
+    /* width: 50%; */
+    /* margin: auto; */
+    /* padding: 1%; */
+    text-align: center;
+    color: #FF0000;
+    font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif;
+
+  }
+  .socal:hover
+  {
+   background-color: #00f7ff;
+   
+  }
