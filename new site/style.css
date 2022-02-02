@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  text-align: center;
+  /* background-color: #E4F9F5; */
+}
+h1 {
+  margin-top: 50px;
+  font-size: 562.5%;
+  color: #66bfbf;
+  line-height: 2.5;
+}
+h2 {
+  margin-top: 0;
+  font-size: 3rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+p {
+  font-size: 1.5rem;
+  color: rgb(39, 34, 34);
+  line-height: 1.5;
+}
+h3 {
+  /* margin-top: 0; */
+  /* font-size: 1.5rem; */
+  color: #11999e;
+}
+#name {
+  font-family: "Dancing Script", cursive;
+}
+.topcontainer {
+  position: relative;
+  padding-top: 100px;
+  background-color: #e4f9f5;
+}
+.top-cloud {
+  position: relative;
+  left: 20%;
+  top: 50%;
+}
+.bottom-cloud {
+  position: relative;
+  right: 50px;
+  bottom: 300px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2.5;
+}
+.profile-picture {
+  border-radius: 100%;
+  width: 25%;
+  position: relative;
+  padding: 50px;
+  margin: 0 auto;
+  width: 10%;
+}
+.computer_img {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.computer_chilli {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+hr {
+  border-color: #748383;
+  border-width: 8px;
+  width: 5%;
+  border-style: dotted none none none;
+}
+.contact-me {
+  padding: 15px;
+  margin: auto;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.contact-message {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199C);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199C);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199C);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199C);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199C);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
