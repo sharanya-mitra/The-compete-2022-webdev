@@ -1,0 +1,5 @@
+API
+🍥Endpoint:For APIs, an endpoint can include a URL of a server or service. Each endpoint is the location from which APIs can access the resources they need to carry out their function. ... The place that APIs send requests and where the resource lives, is called an endpoint.
+🍥Paths:A Path is a unit of a REST API that you can call. A Path comprises an HTTP verb and a URL path that, when exposed, is combined with the base path of the API. By configuring the Path, you define how the API is exposed to your developers.
+🍥Parameters:API Parameters are options that can be passed with the endpoint to influence the response. In GET requests, they're found in strings at the end of the API URL path. In POST requests, they're found in the POST body.
+🍥Authentication:Use the Authentication API to generate, refresh, and manage the JSON Web Tokens (JWTs) that are required for authentication and authorization in order to use the Control Room APIs.

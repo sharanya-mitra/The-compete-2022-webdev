@@ -1,0 +1,50 @@
+-- creating table and adding and droping column
+create table student (
+    student_id INT auto_increment,
+    Name Varchar(50) not NULL,
+    major varchar(50) DEFAULT 'undecided',
+    primary key(student_id)
+);
+
+describe student;
+
+drop table student;
+
+alter table student add gpa decimal(3,2);
+
+alter table student drop column gpa;
+
+-- intserting data in table
+INSERT into student(Name,major) VALUES('Rick','biology');
+
+select * from student;
+
+INSERT into student(student_id,Name) VALUES(2,'hinata');
+
+
+-- updateing and delete
+update student
+set major ='bio'
+where major = 'biology';
+
+update student
+set major ='Comp Sci'
+where major = 'Computer Science bsc';
+
+update student
+set major ='biocomputer Sc'
+where major = 'biology' or major = 'Comp Sci';
+
+delete from student 
+where name = 'Sharanya';
+
+-- basic QUERIES
+SELECT Name 
+from student
+order by name ;
+
+select * 
+from student 
+where major IN ('bio') AND student_id >6;
+
+--
